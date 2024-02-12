@@ -46,7 +46,7 @@ input placeholder{
             <label>p: </label> <input id='input_p' placeholder='Probabilidad de Éxito'> (Ingrese el entero).<br  />
             <p>q: 1 - p (Se genera solo).</p>
             <label>λ: </label> <input id='input_lamda' placeholder='Media de Presentaciones'><br  />
-            <label>x: </label> <input id='input_x' placeholder='Probabilidad de Éxito'><br  />
+            <label>x: </label> <input id='input_x' placeholder='Evento en Intervalo'><br  />
             <label>μ: </label> <input id='input_mi' placeholder='Media de Distri. Binomial'> (De tener el número)<br  />
             <label>&#963: </label> <input id='input_sigma' placeholder='Desv. Esta. Distri. Bino.'> (De tener el número)<br  />
             <label>Z: </label> <input id='input_z' placeholder='Confianza Muestral Deseada'><br  />
@@ -120,7 +120,7 @@ function vars_names() {
   '        <ul>'+
   '            <li>n (número total de ensayos)</li>'+
   '            <li>p (probabilidad de éxito en un solo ensayo)</li>'+
-  '            <li>q (probabilidad de fracaso en un solo ensayo, q = 1 - p)</li>'+
+  '            <li>q (probabilidad de fracaso en un solo ensayo: q = 1 - p)</li>'+
   '        </ul>'+
   '    </li>'+
   '    <li>Distribución de Poisson (DP):'+

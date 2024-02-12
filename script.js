@@ -30,7 +30,7 @@ function vars_names() {
   '            <li>n (número total de ensayos)</li>'+
   '            <li>r (número de éxitos deseado)</li>'+
   '            <li>p (probabilidad de éxito en un solo ensayo)</li>'+
-  '            <li>q (probabilidad de fracaso en un solo ensayo+ q = 1 - p)</li>'+
+  '            <li>q (probabilidad de fracaso en un solo ensayo: q = 1 - p)</li>'+
   '        </ul>'+
   '    </li>'+
   '    <li>Media de una Distribución Binomial (MDB):'+
